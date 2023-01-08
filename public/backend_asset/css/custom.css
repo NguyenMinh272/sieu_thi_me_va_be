@@ -1,0 +1,97 @@
+.pagination {
+  margin: 10px auto 0 auto;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.form-search {
+  margin: 40px 10px 10px 10px;
+}
+
+.form-search .form-inline .form-control {
+  width: 100% !important;
+}
+
+.error-message {
+  margin: 5px 0;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.hide {
+  display: none;
+}
+
+.toast.bg-danger .toast-header {
+  min-width: 350px;
+}
+
+.btn-insert-teacher {
+  background-color: #f99292;
+  border-color: #f99292;
+  border-radius: 20px;
+  color: white;
+}
+
+.btn-delete-teacher {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: white;
+}
+
+.page-footer {
+  padding: .75rem 1.25rem;
+  border-top: 0 solid rgba(0, 0, 0, .125);
+  float: left;
+}
+
+.page-footer > .pagination {
+  margin: 0px auto 10px auto;
+}
+
+.input-group-text {
+  width: 40px;
+}
+
+.input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.input-group > .input-group-append:last-child > .input-group-text:not(:last-child),
+.input-group > .input-group-append:not(:last-child) > .btn,
+.input-group > .input-group-append:not(:last-child) > .input-group-text {
+  border-top-right-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+}
+
+@media screen and (max-width: 400px) {
+  div.form-search {
+    margin-top: 0;
+  }
+  div.form-search .btn-search, div.form-search .form-group {
+    margin: auto;
+  }
+  .card-title, .card-tools {
+    float: none !important;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  div.form-search .mr-2{
+    margin-right: auto !important;
+  }
+}
+.table th {
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+.note {
+  color: #FF0000;
+}
+.billing {
+  text-align: center;
+  font-size: 20px;
+}
+.select2-selection__choice {
+  color: black !important;
+}
